@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+</head>
+
+<body>
+    <h1>Ejemplo de tabla</h1>
+<!-- Las tablas son un conjunto estructurado de datos compuestos por filas y columnas.-->
+<caption>Tabla de Nombres</caption><!--Caption representa un titulo descriptivo de una tabla-->
+<table border="1"> <!--Crea el elemento tabla con el atributo BORDE le añadimos bordes a nuestra tabla-->
+    <tr><!--Respresenta una fila-->
+        <th>Encabezado</th><!--Esta representa las celda del encabezado-->
+        <th>Encabezado2</th>
+    </tr>
+    <tr>
+        <td>Nombre 1</td> <!--Representa la primera celda de la primera fila-->
+        <td>Apellido 1</td><!--representa la segunda celda de la primera fila-->
+    </tr>
+    <tr>
+        <td>lizbeth</td>
+        <td>Bolaños</td>
+    </tr>
+    <tr>
+        <td>Josefath</td>
+        <td>Reyes</td>
+    </tr>
+</table>
+<br>
+<table border="1">
+    <thead><!--esta estiqueta agrupa los elementos de la cabecera en la tabla-->
+        <tr>
+            <th colspan="3"> Encbezado de tablas</th>
+            <!--permite expandir las celdas de datos o de encabezado al numero de columnas que deseamos que ocupe-->
+        </tr>
+    </thead>
+    <tbody><!-- esta etiqueta agrupa los elementos de contenido en la tabla-->
+    <tr>
+        <td>El cuerpo de la tabla</td>
+        <td>con dos columnas</td>
+        <td>columna</td>
+     </tr>
+     <tr>
+        <td>Lizbeth</td>
+     </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3">Piesitos</th>
+        </tr>
+    </tfoot>
+</table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h1 id="Anclajes">Anclaje: Interno y externo</h1>
+    <a href="#seccion1">Donacion unica</a>
+    <br>
+    <a href="#seccion2">Adopta No Compres nace para dar una segunda oportunidad a cientos de animales que han sido víctimas de maltrato y abandono. Promoviendo el amor, cuidado, respeto y protección al rescatar, recuperar, rehabilitar y entregar en adopción.</a>
+    <br>
+    <a href="#seccion3">Dueño Responsable</a><!-- . o # es apra referenciar el Id o Class-->
+    <br>
+    <a href="#seccion4">Meta</a>
+
+    <h2 id="seccion1">Donación unica</h2>
+    <br>
+    <img src="https://www.adoptanocompres.org/wp-content/uploads/2022/04/5.-Nosotros-Mision.png" alt="Referencia" width="300px">
+    <br>
+    <h4>Adopta No Compres nace para dar una segunda oportunidad a cientos de animales que han sido víctimas de maltrato y abandono. Promoviendo el amor, cuidado, respeto y protección al rescatar, recuperar, rehabilitar y entregar en adopción.</h4>
+    <p>Adopta No Compres fue creada oficialmente en julio del año 2013 como entidad Sin ánimo de Lucro. Sin embargo, ya llevaba ocho años de trabajo independiente; nace al ver la problemática de los animales abandonados, maltratados y con la necesidad de cambiar la vida de todos aquellos perros y gatos que llegan a nosotros con la esperanza de reescribir su historia.</p>
+    <br>
+    <br>
+    <h3 id="seccion2">Dueño Responsable</h3>
+    <p>
+        Nuestro objetivo final es poder encontrar un hogar para cada uno de nuestros rescatados. Por eso en Adopta No Compres ubicamos familias y personas responsables interesadas en adoptar. Adicional a esta labor nos encargamos de hacer el seguimiento a cada uno de los animales entregados. 
+    </p>
+    <br>
+    <br>
+    <h3 id="seccion3">Meta</h3>
+    <P>
+        4 brigadas educativas y de esterilización a nivel nacional en los lugares más olvidados de Colombia; así, brindándole una nueva oportunidad al menos a 1200 animales, mitigando la reproducción indiscriminada, la sobrepoblación animal, el maltrato y el abandono.
+
+Realizar 2 jornadas de alimentación en distintas ciudades para llenar las barriguitas de quienes no tienen posibilidades de sobrevivir.
+    </P>
+
+    
+    <a href="#Anclajes">Articulo</a>
+    <br>
+    <br>
+    <br>
+
+    <h2>Anclaje externo</h2>
+    <br>
+    <a href="https://www.telediario.mx/comunidad/refugios-de-animales-en-guadalajara-para-adopcion" target="_blank">Refugios GDL</a><!--Estos anclajes enazan a una pagina web diferente. El valor del atributo href es la URL completa del sitio web de destino y el identificador de la seccion-->
+    <h5>Anclar numero telefonico</h5>
+    <a href="Tel:+52-56-43-87-09">Llamar a Fulanito</a>
+    <br>
+    <h5>Anclaje de Whatsaap</h5>
+    <a href="https://wa.me/1234567890"target="_blank">Envianos Mensaje</a><!--Estos enlaces abren Whatsaap en un navegador o en la aplicacion movil, para qe los usuarios puedan enviar mensajes al numero predefinido-->
+    <br>
+    <h5>Anclaje de Mapa</h5>
+    <a href="https://www.google.com/maps/place/Canc%C3%BAn,+Q.R./@21.1213982,-86.8564038,12z/data=!3m1!4b1!4m6!3m5!1s0x8f4c2b05aef653db:0xce32b73c625fcd8a!8m2!3d21.161908!4d-86.8515279!16zL20vMDFxOTht?entry=ttu" target="_blank">Ver ubicacion a Cancún</a>
+    <!--Estos enlaces nos permiten enlazar ubicaciones especificas en servicios de mapas,ya sea con Google, para que los usuarios puedan tener la referencia-->
+    <br>
+    <h5>Anclaje de redes sociales</h5>
+    <a href="https://www.facebook.com/VegattosMx/?locale=es_LA" target="_blank">Facebook de Vegatos</a>
+    <br>
+    <h1>Video de YouTube Anclado</h1> <!-- Cambia "TU_ID_DE_VIDEO" con el ID real de tu video de YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wZniZEbPAzk" frameborder="0" allowfullscreen></iframe>
+
+    <br>
+    <hr>
+    <br>
+    <h1>Formularios y tipos de entrada</h1>
+    ><form action="Procesar_formulario" method="post"></form><!--La etiqueta form, se utiliza paa crear un formulario en HTML que permite a los usuarios ingresar informacion
+    action: Especifica a la URL a la que se enviaran los datos del formulario cuando este se envia.
+method: Define el metodo HTTP que se utilizara para enviar los datos (puede ser "get" o "post")-->
+<br>
+<h4>Etiqueta input</h4><!--La etiqueta input se utiliza para crear campos de entrada en un formulario-->
+<input type="text" name="usuarios" placeholder="Nombre">
+<br>
+
+<input type="password" name="contraseña" placeholder="Contraseña"><!-- type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+    name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+    placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. -->
+    <br>
+    <br>
+    <h4>Etiqueta label</h4>
+    <!--La etiqueta label se utiliza para etiquetar un elemento de entrada en un formulario, lo que mejora la accesibilidad y la experiencia del usuario.-->
+    <label for="Usuario">Usuario:<!--for es un atributo que se asocia con el "id" de un elemento de entrada para indicar a que campo se refiere-->
+    <input type="text" id="Usuario" name="usuario"
+    </label>
+    <br>
+    <h4>Etiqueta button</h4>
+    <!--Esta etiqueta se utiliza para crear botones en un formulario que los usuatios pueden usar para hacer  clic y enviar informacion.-->
+    <button type="submit">enviar</button>
+    <br>
+    <button type="reset">Resetear</button>
+    <!--Define el tipo de boton.-->
+    <br>
+    <h4>Area de texto</h4>
+    <textarea name="comentario" id="comentario" cols="50" rows="10" placeholder="Ponga sus comentarios"></textarea>
+    <br>
+    <h4>Numero (number)</h4>
+    <!--Este tipo de entrada crea un campo de entrada para numeros-->
+    <input type="numer" name="number" placeholder="Elija su edad">
+    <br>
+    <h4>Correo electronico (mail)</h4>
+    <input type="mail" name="correo" placeholder="Ingrese su correo electronico">
+    <br>
+    <h4>Numero telefonico (tel)</h4>
+    <input type="tel" name="telefono" placeholder="Ingrese su numero"
+    <br>
+    <h4>Fecha (date)</h4>
+    <input type="date" name="fecha">
+    <br>
+    <h4> Hora (time)</h4>
+    <input type="time" name="hora">
+    <br>
+    <h4>Archivo (file)</h4>
+    <input type="file" name="archivo>"
+    <br>
+    <a href="index.html">Regresar al inicio</a>
+
+</body>
+</html>

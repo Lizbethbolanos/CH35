@@ -1,0 +1,25 @@
+table{
+    text-align: center;
+    border-style: dotted;
+    padding: 4px;
+    color: yellow;
+    background-color: aliceblue;
+    border-color: violet;
+}
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nombresReales{
+    color: pink;
+}
+body{
+    background-image: url("https://previews.123rf.com/images/afanasia/afanasia1710/afanasia171000015/87798181-patr%C3%B3n-sin-fisuras-con-lindos-pugs-y-corazones-de-color-rosa-fondo-de-vector-con-perros.jpg");
+    background-size: cover;
+}
+th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+caption{
+    color: white;
+    background-color: violet;
+}

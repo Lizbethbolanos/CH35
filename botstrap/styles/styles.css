@@ -1,0 +1,45 @@
+/*Estilo para el archivo INTROWEB6.HTML
+
+Estilos para el cuerpo y e Titular principar de la pagina agregamos estilos con selector:
+(#)-para id
+(.)- para clases
+(elemento) nombre de la etiqueta- para elementos especificos (atribute): para elementos que tienen un atributo especifico, independientemente de su valor.*/
+
+body{
+    background-color: rgb(red, green, blue);
+}
+h1,h2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#ClaseContenedor , #ClaseRow , #Clasecol{
+    color: violet;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#NavPrincipal {
+    background-color: blueviolet;
+
+}
+.nav-link,
+.navbar-brand,
+.nav-link {
+    color: antiquewhite;
+
+}
+.nav-link:hover,
+.navbar-brand:hover,
+.nav-link:hover {
+    color: darkmagenta;
+}
+#Inicio {
+    background-color: violet;
+}
+    
