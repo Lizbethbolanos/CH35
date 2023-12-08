@@ -19,7 +19,7 @@
 //console.log("multiplicacion:" + (numero1 * numero2));
 //console.log("division:" + (numero1 / numero2));
 
-edad=parseInt(prompt("dame tu edad"));
+/*edad=parseInt(prompt("dame tu edad"));
 
 if(0<=edad<18){
     alert("aun no eres apto");
@@ -29,4 +29,23 @@ if(0<=edad<18){
     alert("tu cuerpo no resiste")
 }else{
     alert("vamonos a dormir")
-}
+}  */
+//TIPOS DE DATOS Y VARIABLES
+//scope es el alcance de nuestras variables
+/*ar, let, const la diferencia es el alcance
+var tiene un alcance global
+let tiene un alcance local
+const se mantiene sin ningun cambio
+
+/*sting: cadena de texto (lleva comillas)
+number: numero
+booleana: true/flase
+null: nulo
+undefined: no esta asignado o definido*/
+
+let nombre = "Daniel";
+let invitadosExtra = 2;
+let esMayorEdad = true;
+let edad = 25;
+let invitadoEspecial = null;
+let horaDeSalida = undefined;
