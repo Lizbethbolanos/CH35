@@ -1,35 +1,50 @@
-//comentarios de una sola linea/
+// comentarios de una sola linea
 
-/*comentarios multilineales*/
+/*
+Comentarios
+multilinea
+*/
 
-//alert("hola mundo");
+//alert("hola mundo en javascript");
+
+//console.log("Mensaje para la consola");
+
+// var nombre = prompt("Ingresa tu nombre");
+// alert("Hola, "+nombre+" Bienvenido a la CH35");
+
+// var numero1 = parseInt(prompt("Dame un numerito"));
+// var numero2 = parseInt(prompt("Dame otro numerito"));
+
+// console.log("La suma de: "+numero1+"+"+numero2+"="+(numero1+numero2));
+// console.log("La resta de: "+numero1+"-"+numero2+"="+(numero1-numero2));
+// console.log("La multiplicacion de: "+numero1+"*"+numero2+"="+(numero1*numero2));
+// console.log("La division de: "+numero1+"/"+numero2+"="+(numero1/numero2));
+
+/*Hacer una practica donde ingrese edad e indique si es mayor de edad*/
+
+var edad;
+var res = "s";
+
+while(res==="s"){
+
+    edad = parseInt(prompt("Dame tu edad"));
+    //console.log(edad);
+
+    if(0 <= edad && edad< 18){
+        alert("Tss todavia pides permiso");
+    }else if(18<=edad  && edad<30){
+        alert("Ya alcanzas el timbre :D");
+    }else if(30<=edad  && edad<50){
+        alert("¿Tambien te duelen las rodillas?");
+    }else{
+        alert("Es hora de irse a mimir");
+    }
+    res = prompt("¿Otra edad? s/n");
+
+}   
 
 
-//console.log("este es un mensaje para mi consola")
 
-//var nombre = prompt("ingresa tu nombre");
-//alert("Hola,nombreBienvenido a la ch35");
-
-
-//var numero1 = parseInt (prompt("Ingresa el primero numero:"))
-//var numero2 = parseInt (prompt("Ingresa el segundo numero:"))
-
-//console.log("suma:" + (numero1 + numero2));
-//console.log("resta:" + (numero1 - numero2));
-//console.log("multiplicacion:" + (numero1 * numero2));
-//console.log("division:" + (numero1 / numero2));
-
-/*edad=parseInt(prompt("dame tu edad"));
-
-if(0<=edad<18){
-    alert("aun no eres apto");
-}else if (18<=edad<30){
-    alert("ya eres apto");
-}else if (30<=edad<50){
-    alert("tu cuerpo no resiste")
-}else{
-    alert("vamonos a dormir")
-}  */
 //TIPOS DE DATOS Y VARIABLES
 //scope es el alcance de nuestras variables
 /*ar, let, const la diferencia es el alcance
@@ -43,9 +58,9 @@ booleana: true/flase
 null: nulo
 undefined: no esta asignado o definido*/
 
-let nombre = "Daniel";
+/*let nombre = "Daniel";
 let invitadosExtra = 2;
 let esMayorEdad = true;
 let edad = 25;
 let invitadoEspecial = null;
-let horaDeSalida = undefined;
+let horaDeSalida = undefined;*/

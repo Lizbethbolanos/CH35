@@ -1,0 +1,6 @@
+body {
+    background:
+            60px 60px/120px 120px linear-gradient(135deg, #d4bade 10%, #a054c0 0 25%, transparent 0 75%, #a054c0 0 90%, #d4bade 90%),
+            0 0/120px 120px linear-gradient(135deg, #d4bade 10%, #c093d2 0 25%, transparent 0 75%, #c093d2 0 90%, #d4bade 90%),
+            0 0/120px 120px linear-gradient(45deg, #d4bade 10%, #a054c0 0 25%, #c093d2 0 40%, #d4bade 0 60%, #c093d2 0 75%, #a054c0 0 90%, #d4bade 90%);
+}
