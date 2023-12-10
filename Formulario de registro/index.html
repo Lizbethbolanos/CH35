@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/estyle.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style/estyle.css"
 </head>
+
 <body>
- <div class="Formulario">
-    <h1>Create your account</h1>
-    <form method="post">
-        <div class="correo">
-            <input type="text" required>
-            <label>Email</label>
-        </div>
-        <div class="Contrasena">
-            <input type="password" required>
-            <label>Password</label>
-        </div>
-        <br>
-        <div class="recordar">Forgot Password</div>
-        <br>
-        <input type="submit" value="Login">
-        <div class="registrase">
-            <br>
-            Already have a <a href="#">account?</a>
-        </div>
-        
-    </form>
- </div>
+    <div class="left">
+        <form method="GET">
+            <h2>Create your account</h2>
+            <div style="display: flex;">
+                <button><img style="width: 20px;" src="img/Image20231206171113.png" alt="Image20231206171113"> Use
+                    Google</button>
+                <button><img style="width: 20px;" src="img/Apple_logo_black.svg" alt="Apple_logo_black"> Use
+                    Apple</button>
+            </div>
+            <hr class="hr-text" data-content="OR">
+
+            <div class="inputs">
+                <label>Email: </label>
+                <input name="name" type="text" value="user" />
+                <label>Password: </label>
+                <input name="pwd" type="password" />
+                <input class="submit" type="submit" value="LOGIN" />
+                <a href="google.com">Already have a account?</a>
+            </div>
+        </form>
+    </div>
+    <div class="right">
+        <img class="imgRight" src="img/Image20231206171117.png" alt="Image20231206171117" />
+    </div>
 </body>
+
 </html>
