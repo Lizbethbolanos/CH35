@@ -268,7 +268,7 @@ if (opcion === 1) {
 } else if (opcion === 4) {
   console.log("Acción a realizar: Pago de servicios");
 } else {
-  console.log("No es valido. Por favor, elige alguna opción del 1 al 4.");
+  console.log("Por favor elige alguna opción del 1 al 4.");
 }
 
 
@@ -314,7 +314,7 @@ switch (convertirDivisas) {
     console.log(`${cantidad} pesos mexicanos equivalen a ${resultado.toFixed(2)} francos suizos.`);
     break;
   default:
-    console.log("Opción no válida. Por favor, elige una opción del 1 al 5.");
+    console.log("Por favor, elige una opción del 1 al 5.");
 }
 
 
